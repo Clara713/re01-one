@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear:both;
+}
+
+
+.wrapper{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(204, 204, 204, 0.27);
+}
+.logo{
+    height: 100px;
+    padding-top: 11px;
+    margin-left: 232px;
+    float: left;
+    margin-right: 180px;
+}
+/* 头部导航栏 */
+.nav{
+    height: 100px;
+    float: left;
+}
+.nav li{
+    float: left;
+    margin-right: 62px;
+}
+.nav li a{
+    display: block;
+    height: 80px;
+    padding: 0 9px;
+    line-height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.nav li a:hover{
+    border-bottom: 3px solid #43CF7C;
+}
+
+/* 大图 */
+.picture img{
+    width: 100%;
+}
+
+/* 介绍部分 */
+.introduction .one{
+    color: #43CF7C;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 84px 607px 22px 607px;
+}
+
+.introduction .two{
+    padding: 0px 320px 22px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.38px;
+}
+
+.introduction .button{
+    height: 38px;
+    width: 184px;
+    margin: 0px 638px 97px 618px;
+    box-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.25);
+}
+.introduction .button a{
+    line-height: 38px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 50px;
+    color:black
+}
+
+/* 团队足迹 */
+
+.footprint{
+    width: 100%;
+    float: left;
+}
+
+.footprint .map{
+    float: left;
+    margin: 64px 27px 64px 163px;
+}
+
+.footprint1{
+    float: left;
+    padding: 32px 32px;
+    width: 439px;
+    height: 472px;
+    background: rgba(255, 255, 255, 0.28);
+    box-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.25);
+}
+
+.footprint1 li{
+    width: 374px;
+    height: 60px;
+}
+
+.footprint1 li a{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 23.17px;
+    color: black;
+}
+
+h2{
+    color: #43CF7C;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 27px;
+}
+
+h3{
+    color: #43CF7C;
+    font-weight: 400;
+    margin-bottom:32px ;
+    float: right;
+}
+
+h3 a{
+    color: #43CF7C;
+}
+
+/* 底部导航栏 */
+.bottomnav{
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: 115px;
+    margin-bottom: 15px;
+    background-color: rgba(204, 204, 204, 0.27);
+}
+
+.left {
+    height: 300px;
+    width: 720px;
+    float: left;
+}
+
+.logo2{
+    height: 100px;
+    padding-top: 11px;
+    margin-left: 232px;
+    float: left;
+    margin-right: 50px;
+}
+
+.name{
+    width: 258px;
+    height: 38px;
+    font-size: 24px;
+    font-weight: 400;
+    float: left;
+    margin-top:  31px;;
+}
+
+.wenzi{
+    width: 462px;
+    height: 141px;
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 232px;
+    margin-top: 30px;
+}
+
+.right{
+    height: 300px;
+    width: 720px;
+    float: left;
+    padding: 70px 280px;
+}
+
+.right li a{
+    height: 43px;
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    color:black;
+}
+
+/* 版权声明 */
+span{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 15px;
+}
+
+/* 团队足迹查看更多 */
+
+/* 查看更多 */
+.more .button{
+    height: 70px;
+    width: 1200px;
+    margin: 60px 638px 20px 118px;
+    box-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.25);
+}
+.more .button a{
+    line-height: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+    color:black
+}
+.more .one{
+    line-height: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 118px;
+    color: #43CF7C;
+}
+.more .one a{
+    color: #43CF7C;
+}
+
+
+/* 新能源新材料介绍 */
+
+
+/*具体内容上方部分*/
+.dazi{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.daziwenzi{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+/* 索引栏 */
+.suoyin{
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.suoyin li{
+    float: left;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.suoyin li a{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.suoyin li a:hover{
+    color: #43CF7C;
+}
+
+/*具体内容*/
+.neirongbeijing{
+    width: 1400px;
+    background-color: rgba(204, 204, 204, 0.27);
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.xiaobiaoti1{
+    text-indent: 44px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.xiaobiaoti{
+    text-indent: 44px;
+    font-size: 36px;
+    line-height: 40px;
+}
+.wenzineirong{
+    text-indent: 2em;
+    font-size: 23px;
+    color: rgb(28, 30, 30);
+    line-height: 40px;
+}
+.juzhongtupian{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tupianjieshao{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 23px;
+    line-height: 40px;
+}
+
+/* 相关企业介绍 */
+.bjj{
+    margin: 0px;
+    padding: 0px;
+    list-style-image: none;
+    list-style-type: none;
+    display: block;
+    unicode-bidi:isolate;
+}
+
+.xks{
+    width: 100%;
+    margin: 0px auto;
+}
+
+.xnr{
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 18px;
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.xnra{
+    margin-right: 0px;
+    height: 205px;
+    width: 358px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.xnrb{
+    height: 32px;
+    line-height: 16px;
+    font-size: 14px;
+    width: 358px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.xnrb li a :hover{
+    color: red;
+}
+
+.gongsijieshao{
+    margin:10px auto;
+    width: 1440px;
+    height: 800px;
+    background-color: #fff;
+}
+
+.zuo{
+    float: left;
+    width: 340px;
+    height: 800px;
+    background-color: rgba(204, 204, 204, 0.27);
+}
+
+.you{
+    float: right;
+    width: 1090px;
+    height: 800px;
+    background-color: rgba(204, 204, 204, 0.27);
+}
+
+.zuo h2{
+    margin-top: 30px;
+    text-align: center;
+    color: #000;    
+}
+
+.zuo ul{
+    width: 290px;
+    margin: 0 auto;
+}
+.zuo li{
+    list-style: disc;
+    line-height: 45px;
+}
+.zuo li a{
+    font-size: 17px;
+    color: #000;
+}
+.zuo li a:hover{
+    color: red;
+
+}
+
+.xiaobiaoti2{
+    text-indent: 44px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bolder;
+}
